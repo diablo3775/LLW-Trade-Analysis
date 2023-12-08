@@ -11,6 +11,8 @@
   padding: 10px;
   text-align: center;
   cursor: pointer;
+  height: 70px;
+  width: 50px;
 }
 
 .date-box.selected {
@@ -24,8 +26,10 @@
 }
 
 .note-editor {
-  max-width: 600px;
-  margin: 20px;
+  /* max-width: 600px; */
+  margin: 70px 20px 20px 50px;
+  /* height: 50vh;
+  overflow-y: scroll; */
 }
 
 input {
@@ -46,5 +50,19 @@ input {
 
 .container {
   display: flex;
+  align-items: center;
+}
+
+.trades-container {
+  height: 63vh;
+  overflow-y: scroll;
+}
+
+.profit {
+ color: green;
+}
+
+.loss {
+  color: red;
 }
 
